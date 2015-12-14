@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
@@ -92,6 +93,15 @@ public class SdDatabaseCsv_SampleActivity extends Activity implements OnClickLis
 
             case R.id.export:    // Z CVS TO SD CARD
 
+                final Button btnExport = (Button) findViewById(R.id.export);
+                btnExport.setBackgroundColor(Color.GRAY);
+                Handler objHandler = new Handler();
+                objHandler.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                    btnExport.setBackgroundColor(0xFF8b90f3);
+                    }
+                }, 700);
 
                 String bizDate = mEditText1.getText().toString();
 //			String zcounter = mEditText2.getText().toString();
