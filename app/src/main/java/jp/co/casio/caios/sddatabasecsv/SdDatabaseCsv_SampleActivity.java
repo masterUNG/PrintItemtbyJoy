@@ -5,6 +5,7 @@ import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.graphics.Color;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
@@ -102,6 +103,10 @@ public class SdDatabaseCsv_SampleActivity extends Activity implements OnClickLis
                     btnExport.setBackgroundColor(0xFF8b90f3);
                     }
                 }, 700);
+
+                //Sound Effect
+                MediaPlayer buttonMediaPlayer = MediaPlayer.create(getBaseContext(), R.raw.effect_btn_shut);
+                buttonMediaPlayer.start();
 
                 String bizDate = mEditText1.getText().toString();
 //			String zcounter = mEditText2.getText().toString();
