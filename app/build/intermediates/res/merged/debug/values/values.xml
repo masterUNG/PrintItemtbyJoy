@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/masterUNG/MyWorkspace/Studio_V100/ExportReport_joy/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Export Report to CSV </string>
+    <string name="checkbox1">CSS012 FIXED TOTAL CONSOLIDATION</string>
+    <string name="checkbox2">CSS013 TRANSACTION KEY CONSOLIDATION</string>
+    <string name="checkbox3">CSS014 ITEM CONSOLIDATION</string>
+    <string name="checkbox4">CSS015 DEPARTMENT CONSOLIDATION</string>
+    <string name="checkbox5">CSS016 GROUP CONSOLIDATION</string>
+    <string name="checkbox6">CSS017 CLERK CONSOLIDATION</string>
+    <string name="checkbox7">CSS018 CUSTOMER GROUP CONSOLIDATION</string>
+    <string name="checkbox8">CSS019 HOURLY CONSOLIDATION</string>
+    <string name="checkbox9">CSS110 MIX and MATCH CONSOLIDATION</string>
+    <string name="hello">Hello World, SD database CSV</string>
+    <string name="keyword_default_Date">Enter Date i.e. "20130701 (YYYYMMDD)"</string>
+    <string name="keyword_default_Zcount">Enter Zcount i.e. "000001"</string>
+</resources>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="bottom">
+
+    <LinearLayout
+        android:layout_width="742dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/css012"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/checkbox1"
+            android:checked="false" />
+
+        <CheckBox
+            android:id="@+id/css013"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/checkbox2"
+            android:checked="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/csso14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/checkbox3"
+            android:checked="false" />
+
+        <CheckBox
+            android:id="@+id/css015"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="@string/checkbox4"
+            android:checked="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/css016"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/checkbox5"
+            android:checked="false" />
+
+        <CheckBox
+            android:id="@+id/css017"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.05"
+            android:text="@string/checkbox6"
+            android:checked="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <!--<CheckBox-->
+            <!--android:id="@+id/checkbox7"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="@string/checkbox7" />-->
+
+        <CheckBox
+            android:id="@+id/css019"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/checkbox8"
+            android:checked="false" />
+
+        <CheckBox
+            android:id="@+id/css110"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.40"
+            android:text="@string/checkbox9"
+            android:checked="false" />
+    </LinearLayout>
+
+    <!--<CheckBox-->
+        <!--android:id="@+id/checkbox9"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/checkbox9" />-->
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TableRow>
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/keyword_default_Date" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:inputType="date|text"
+                android:layout_column="16"
+                android:hint="YYYYMMDD"
+                android:textStyle="bold">
+            </EditText>
+
+        </TableRow>
+
+    </TableLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_margin="@android:dimen/app_icon_size"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/export"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Export To SD CARD !"
+            android:textSize="25dp"
+            android:background="#8b90f3"
+            android:layout_alignParentBottom="true"
+
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"
+            android:textColor="#fefefe"
+            android:longClickable="false"
+            android:gravity="center_horizontal"
+            android:clickable="true"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/close"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Close"
+            android:layout_weight="1"
+            android:background="#b80a0a"
+            android:textSize="25sp"
+            android:textColor="#fcfafa"
+
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:typeface="monospace"
+            android:width="2dp"
+            android:layout_alignParentBottom="true"
+            android:singleLine="false" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/Users/masterUNG/MyWorkspace/Studio_V100/ExportReport_joy/app/src/main/res/layout/main.xml -->
